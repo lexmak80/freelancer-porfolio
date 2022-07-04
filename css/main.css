@@ -120,3 +120,72 @@ header {
 }
 
 /* portfolio */
+
+.portfolio {
+  padding: 90px 0;
+  background-color: #f1f1f1;
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.title-1 {
+  font-weight: 600;
+  font-size: 34px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.project img {
+  margin-bottom: 40px;
+}
+
+.project-title {
+  font-size: 18px;
+}
+.project-title a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* contact */
+
+.contact {
+  padding: 90px 0;
+  text-align: center;
+}
+.contact-title {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+}
+.contact-text {
+  margin: 40px 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+.contact-btn {
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.social-icon {
+  margin-top: 80px;
+}
+.social-icon img {
+  margin-right: 62px;
+}
+
+.contact-subtext {
+}
