@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Freelancer porfolio</title>
   <link rel="stylesheet" href="/css/main.css" />
-  <link rel="stylesheet" href="/css/media.css" />
+  <link rel="stylesheet" href="./css/media.css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
       <div class="header-nav">
         <a href="#!" class="logo">Kelvin</a>
 
-        <nav class="nav">
+        <nav id="nav" class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
             <li class="nav-item"><a href="" class="nav-link">Works</a></li>
@@ -26,6 +26,9 @@
             <li class="nav-item"><a href="" class="nav-link">About</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
           </ul>
+          <button id="nav-btn"  class="nav-button">
+            <img id="nav-btn-img" src="/img/icons/NAV.svg" alt="open button">
+          </button>
         </nav>
       </div>
 
@@ -34,7 +37,7 @@
         <div class="header-content">
           <h1 class="header-heading">
             Kelvin Kramer <br />
-            Designer & Developer
+            <span>Designer & Developer</span>
           </h1>
           <p>
             I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure
@@ -43,7 +46,10 @@
         </div>
 
         <div class="header-img">
-          <img src="./img/header/hero.png" alt="" />
+          <picture>
+            <source media="(max-width:799px)" srcset="./img/header/hero-mobile.png" >
+            <img src="./img/header/hero.png" alt="" />
+          </picture>
         </div>
       </div>
     </div>
